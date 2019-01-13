@@ -1,0 +1,3 @@
+<map id="Worksheet" name="Worksheet">
+<area shape="rect" id="node2" href="$classCrosswordWorksheet.html" title="{CrosswordWorksheet\n|# seed\l# dictionary\l# crossword\l# alphabetTable\l# wordCommandClusters\l# displayAnswers\l|+ CrosswordWorksheet()\l+ makeCrossword()\l+ buildCrosswordOnly()\l+ addWordCommandCluster()\l+ setDisplayAnswers()\l+ getDisplayAnswers()\l# charToStrInt()\l}" alt="" coords="5,219,201,457"/>
+</map>

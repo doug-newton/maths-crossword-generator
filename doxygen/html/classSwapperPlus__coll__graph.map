@@ -1,0 +1,4 @@
+<map id="SwapperPlus" name="SwapperPlus">
+<area shape="rect" id="node2" href="$classSwapper.html" title="{Swapper\n|# enabled\l|+ Swapper()\l+ canSwap()\l+ swap()\l+ setEnabled()\l# replace()\l}" alt="" coords="5,160,112,296"/>
+<area shape="rect" id="node3" href="$classRandom.html" title="{Random\n||+ setSeed()\l+ randomInt()\l}" alt="" coords="9,5,109,97"/>
+</map>

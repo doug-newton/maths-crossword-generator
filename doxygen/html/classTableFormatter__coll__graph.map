@@ -1,0 +1,9 @@
+<map id="TableFormatter" name="TableFormatter">
+<area shape="rect" id="node3" href="$classFormatter.html" title="{Formatter\n|# questionLines\l# answerLines\l|+ Formatter()\l+ outputQuestions()\l+ outputAnswers()\l+ addQuestionLine()\l+ addAnswerLine()\l+ startSection()\l+ endSection()\l+ startSubsection()\l+ endSubsection()\l+ startEnumerate()\land 9 more...\l}" alt="" coords="485,160,623,399"/>
+<area shape="rect" id="node2" href="$classQuestionFormatter.html" title="{QuestionFormatter\n||+ QuestionFormatter()\l}" alt="" coords="479,461,629,539"/>
+<area shape="rect" id="node4" href="$classTreeFormatter.html" title="{TreeFormatter\n||+ TreeFormatter()\l+ formatTree()\l+ strTree()\l}" alt="" coords="1008,588,1132,695"/>
+<area shape="rect" id="node5" href="$classCrosswordFormatter.html" title="{CrosswordFormatter\n||+ CrosswordFormatter()\l+ formatCrossword()\l}" alt="" coords="807,595,968,687"/>
+<area shape="rect" id="node6" href="$classExpressionTreeFormatter.html" title="{ExpressionTreeFormatter\n||+ ExpressionTreeFormatter()\l+ formatExpressionTree()\l+ strExpressionTree()\l}" alt="" coords="315,588,505,695"/>
+<area shape="rect" id="node7" href="$classBodmasQuestionFormatter.html" title="{BodmasQuestionFormatter\n||+ BodmasQuestionFormatter()\l+ formatBodmasQuestion()\l}" alt="" coords="572,595,771,687"/>
+<area shape="rect" id="node8" href="$classEquationQuestionFormatter.html" title="{EquationQuestionFormatter\n||+ EquationQuestionFormatter()\l+ formatEquationQuestion()\l}" alt="" coords="5,595,207,687"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Swapper" name="Swapper">
+<area shape="rect" id="node2" href="$classSwapperDivide.html" title="{SwapperDivide\n||+ canSwap()\l+ swap()\l}" alt="" coords="5,204,116,296"/>
+<area shape="rect" id="node3" href="$classSwapperMinus.html" title="{SwapperMinus\n||+ canSwap()\l+ swap()\l}" alt="" coords="140,204,248,296"/>
+<area shape="rect" id="node4" href="$classSwapperPlus.html" title="{SwapperPlus\n||+ canSwap()\l+ swap()\l}" alt="" coords="273,204,371,296"/>
+<area shape="rect" id="node5" href="$classSwapperTimes.html" title="{SwapperTimes\n||+ canSwap()\l+ swap()\l}" alt="" coords="395,204,505,296"/>
+</map>

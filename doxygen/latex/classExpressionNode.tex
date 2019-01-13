@@ -1,0 +1,103 @@
+\hypertarget{classExpressionNode}{}\section{Expression\+Node Class Reference}
+\label{classExpressionNode}\index{Expression\+Node@{Expression\+Node}}
+
+
+Collaboration diagram for Expression\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{classExpressionNode__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Operator} \{ \\*
+{\bfseries N\+O\+NE} = 0, 
+{\bfseries P\+L\+US}, 
+{\bfseries M\+I\+N\+US}, 
+{\bfseries T\+I\+M\+ES}, 
+\\*
+{\bfseries D\+I\+V\+I\+DE}, 
+{\bfseries F\+R\+AC}, 
+{\bfseries E\+XP}, 
+{\bfseries R\+O\+OT}
+ \}\hypertarget{classExpressionNode_a7735465f9aac516880869e4a630d2569}{}\label{classExpressionNode_a7735465f9aac516880869e4a630d2569}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Expression\+Tree} (\hyperlink{classExpressionTree}{Expression\+Tree} $\ast$expression\+Tree)\hypertarget{classExpressionNode_a97010b6f697941a0522f1f13a55e1537}{}\label{classExpressionNode_a97010b6f697941a0522f1f13a55e1537}
+
+\item 
+void {\bfseries set\+Parent} (\hyperlink{classExpressionNode}{Expression\+Node} $\ast$parent)\hypertarget{classExpressionNode_aeed821d5466822cf6c84a16edd88428b}{}\label{classExpressionNode_aeed821d5466822cf6c84a16edd88428b}
+
+\item 
+void {\bfseries set\+Left} (\hyperlink{classExpressionNode}{Expression\+Node} $\ast$left)\hypertarget{classExpressionNode_a4a1082d2ef3d4eb90c88d45ff7b3c92e}{}\label{classExpressionNode_a4a1082d2ef3d4eb90c88d45ff7b3c92e}
+
+\item 
+void {\bfseries set\+Right} (\hyperlink{classExpressionNode}{Expression\+Node} $\ast$right)\hypertarget{classExpressionNode_ad123db23336006f9d37458dfcd240158}{}\label{classExpressionNode_ad123db23336006f9d37458dfcd240158}
+
+\item 
+void {\bfseries set\+Value} (int value)\hypertarget{classExpressionNode_a84c28fcc2296c5d6cfa8a71595cee32d}{}\label{classExpressionNode_a84c28fcc2296c5d6cfa8a71595cee32d}
+
+\item 
+void {\bfseries set\+Operator} (int op)\hypertarget{classExpressionNode_ac4c9f6574b462191267c2a43f64503ec}{}\label{classExpressionNode_ac4c9f6574b462191267c2a43f64503ec}
+
+\item 
+void {\bfseries set\+Left\+Right} (\hyperlink{classExpressionNode}{Expression\+Node} $\ast$left, \hyperlink{classExpressionNode}{Expression\+Node} $\ast$right)\hypertarget{classExpressionNode_a27a7dbaa192ed918f2485c9f67389f7a}{}\label{classExpressionNode_a27a7dbaa192ed918f2485c9f67389f7a}
+
+\item 
+void {\bfseries set\+Is\+Variable} (bool b)\hypertarget{classExpressionNode_af142d717316c6b0d5cdba9cef7240cca}{}\label{classExpressionNode_af142d717316c6b0d5cdba9cef7240cca}
+
+\item 
+void {\bfseries set\+Variable} (char variable)\hypertarget{classExpressionNode_a1b7d69d73e5c84484fa8d4221530620e}{}\label{classExpressionNode_a1b7d69d73e5c84484fa8d4221530620e}
+
+\item 
+\hyperlink{classExpressionTree}{Expression\+Tree} $\ast$ {\bfseries get\+Expression\+Tree} ()\hypertarget{classExpressionNode_a65d4aef39850ffaeadad4a5385c8e986}{}\label{classExpressionNode_a65d4aef39850ffaeadad4a5385c8e986}
+
+\item 
+\hyperlink{classExpressionNode}{Expression\+Node} $\ast$ {\bfseries get\+Parent} ()\hypertarget{classExpressionNode_af273e8a6b5f8336931d32984d71e62ee}{}\label{classExpressionNode_af273e8a6b5f8336931d32984d71e62ee}
+
+\item 
+\hyperlink{classExpressionNode}{Expression\+Node} $\ast$ {\bfseries get\+Left} ()\hypertarget{classExpressionNode_a9818bdb068e0849c4691a5db7c4bbcbf}{}\label{classExpressionNode_a9818bdb068e0849c4691a5db7c4bbcbf}
+
+\item 
+\hyperlink{classExpressionNode}{Expression\+Node} $\ast$ {\bfseries get\+Right} ()\hypertarget{classExpressionNode_ac3e6362584c8057ebbbc14326f54b50c}{}\label{classExpressionNode_ac3e6362584c8057ebbbc14326f54b50c}
+
+\item 
+int {\bfseries get\+Value} ()\hypertarget{classExpressionNode_a8b4cd85947782998da3a67649afd1b97}{}\label{classExpressionNode_a8b4cd85947782998da3a67649afd1b97}
+
+\item 
+int {\bfseries get\+Operator} ()\hypertarget{classExpressionNode_a4b289464ef13fb5a06fe250aef5081a4}{}\label{classExpressionNode_a4b289464ef13fb5a06fe250aef5081a4}
+
+\item 
+bool {\bfseries get\+Is\+Variable} ()\hypertarget{classExpressionNode_a078b875f649fe63ffdd8642fbb549843}{}\label{classExpressionNode_a078b875f649fe63ffdd8642fbb549843}
+
+\item 
+char {\bfseries get\+Variable} ()\hypertarget{classExpressionNode_a5e3e02cb0e049885fa4a71ba976f96da}{}\label{classExpressionNode_a5e3e02cb0e049885fa4a71ba976f96da}
+
+\item 
+\hyperlink{classExpressionNode}{Expression\+Node} $\ast$ {\bfseries make\+Left} ()\hypertarget{classExpressionNode_a0ff44a15297f0fa4ca6ae37e17cb4ef3}{}\label{classExpressionNode_a0ff44a15297f0fa4ca6ae37e17cb4ef3}
+
+\item 
+\hyperlink{classExpressionNode}{Expression\+Node} $\ast$ {\bfseries make\+Right} ()\hypertarget{classExpressionNode_a3459476af2378d8fd527163eec8cf817}{}\label{classExpressionNode_a3459476af2378d8fd527163eec8cf817}
+
+\item 
+void {\bfseries make\+Left\+Right} (\hyperlink{classExpressionNode}{Expression\+Node} $\ast$\&left, \hyperlink{classExpressionNode}{Expression\+Node} $\ast$\&right)\hypertarget{classExpressionNode_adf695e49175ef44d4e72bf5ca4bb732b}{}\label{classExpressionNode_adf695e49175ef44d4e72bf5ca4bb732b}
+
+\item 
+void {\bfseries calculate} ()\hypertarget{classExpressionNode_a3d26b43626f1126b30a2b441cdeeb91a}{}\label{classExpressionNode_a3d26b43626f1126b30a2b441cdeeb91a}
+
+\item 
+bool {\bfseries needs\+Brackets} ()\hypertarget{classExpressionNode_ae6011ffc9d0ba7cb9b396d0b3102acb0}{}\label{classExpressionNode_ae6011ffc9d0ba7cb9b396d0b3102acb0}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/douglas/generator2/expressionnode.\+h\item 
+/home/douglas/generator2/expressionnode.\+cpp\end{DoxyCompactItemize}

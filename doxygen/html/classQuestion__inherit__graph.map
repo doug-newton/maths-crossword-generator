@@ -1,0 +1,4 @@
+<map id="Question" name="Question">
+<area shape="rect" id="node2" href="$classBodmasQuestion.html" title="{BodmasQuestion\n|+ findX\l|+ generate()\l+ format()\l+ getExpressionTree()\l+ getTree()\l+ setUseBrackets()\l+ getUseBrackets()\l}" alt="" coords="5,160,156,311"/>
+<area shape="rect" id="node3" href="$classEquationQuestion.html" title="{EquationQuestion\n||+ generate()\l+ format()\l+ getExpressionTree()\l+ getFormula()\l}" alt="" coords="180,175,331,296"/>
+</map>

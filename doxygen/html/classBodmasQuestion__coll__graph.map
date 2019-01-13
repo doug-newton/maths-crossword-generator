@@ -1,0 +1,4 @@
+<map id="BodmasQuestion" name="BodmasQuestion">
+<area shape="rect" id="node2" href="$classQuestion.html" title="{Question\n||+ generate()\l+ format()\l+ getRandom()\l}" alt="" coords="26,160,135,267"/>
+<area shape="rect" id="node3" href="$classRandom.html" title="{Random\n||+ setSeed()\l+ randomInt()\l}" alt="" coords="31,5,131,97"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="CrosswordWorksheet" name="CrosswordWorksheet">
+<area shape="rect" id="node2" href="$classWorksheet.html" title="{Worksheet\n||+ Worksheet()\l+ command()\l+ outputQuestions()\l+ outputAnswers()\l+ setSeed()\l}" alt="" coords="179,637,316,773"/>
+<area shape="rect" id="node3" href="$classLatexFormatter.html" title="{LatexFormatter\n||+ LatexFormatter()\l+ outputQuestions()\l+ outputAnswers()\l+ startSubsection()\l+ endSubsection()\l+ startSection()\l+ endSection()\l+ startEnumerate()\l+ endEnumerate()\l+ startMulticol()\l+ endMulticol()\l}" alt="" coords="121,307,259,531"/>
+<area shape="rect" id="node4" href="$classFormatter.html" title="{Formatter\n|# questionLines\l# answerLines\l|+ Formatter()\l+ outputQuestions()\l+ outputAnswers()\l+ addQuestionLine()\l+ addAnswerLine()\l+ startSection()\l+ endSection()\l+ startSubsection()\l+ endSubsection()\l+ startEnumerate()\land 9 more...\l}" alt="" coords="697,5,835,244"/>
+<area shape="rect" id="node6" href="$classQuestionFormatter.html" title="{QuestionFormatter\n||+ QuestionFormatter()\l}" alt="" coords="897,380,1048,457"/>
+<area shape="rect" id="node5" href="$classTreeFormatter.html" title="{TreeFormatter\n||+ TreeFormatter()\l+ formatTree()\l+ strTree()\l}" alt="" coords="393,652,517,759"/>
+<area shape="rect" id="node7" href="$classCrosswordFormatter.html" title="{CrosswordFormatter\n||+ CrosswordFormatter()\l+ formatCrossword()\l}" alt="" coords="552,659,713,751"/>
+<area shape="rect" id="node8" href="$classExpressionTreeFormatter.html" title="{ExpressionTreeFormatter\n||+ ExpressionTreeFormatter()\l+ formatExpressionTree()\l+ strExpressionTree()\l}" alt="" coords="899,652,1089,759"/>
+<area shape="rect" id="node9" href="$classBodmasQuestionFormatter.html" title="{BodmasQuestionFormatter\n||+ BodmasQuestionFormatter()\l+ formatBodmasQuestion()\l}" alt="" coords="1121,659,1320,751"/>
+<area shape="rect" id="node10" href="$classTableFormatter.html" title="{TableFormatter\n||+ TableFormatter()\l+ formatTable()\l}" alt="" coords="742,659,873,751"/>
+<area shape="rect" id="node11" href="$classEquationQuestionFormatter.html" title="{EquationQuestionFormatter\n||+ EquationQuestionFormatter()\l+ formatEquationQuestion()\l}" alt="" coords="1373,659,1575,751"/>
+<area shape="rect" id="node12" href="$classRandom.html" title="{Random\n||+ setSeed()\l+ randomInt()\l}" alt="" coords="283,373,383,465"/>
+<area shape="rect" id="node13" href="$classAlphabetTable.html" title="{AlphabetTable\n||+ AlphabetTable()\l}" alt="" coords="1669,667,1794,744"/>
+<area shape="rect" id="node14" href="$classTable.html" title="{Table\n|# row1\l# row2\l# size\l|+ append()\l+ elementInRow1()\l+ elementInRow2()\l+ getSize()\l}" alt="" coords="1734,343,1867,494"/>
+<area shape="rect" id="node15" href="$classCrossword.html" title="{Crossword\n||+ addWord()\l+ addWord()\l+ addConnectedTo()\l+ collisionCheck()\l+ collides()\l+ getPositionAndOrientation()\l+ strAscii()\l+ latexPrint()\l+ wordIndexAt()\l+ hasIndexAt()\land 7 more...\l}" alt="" coords="1819,593,2012,817"/>
+<area shape="rect" id="node16" href="$classDictionary.html" title="{Dictionary\n||+ Dictionary()\l+ nextWord()\l}" alt="" coords="2037,659,2138,751"/>
+</map>

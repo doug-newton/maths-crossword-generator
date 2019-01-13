@@ -1,0 +1,78 @@
+\hypertarget{classCrossword}{}\section{Crossword Class Reference}
+\label{classCrossword}\index{Crossword@{Crossword}}
+
+
+Collaboration diagram for Crossword\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{classCrossword__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries add\+Word} (std\+::string word)\hypertarget{classCrossword_a8cd860c8c44d1b97e7667defb8a867ec}{}\label{classCrossword_a8cd860c8c44d1b97e7667defb8a867ec}
+
+\item 
+void {\bfseries add\+Word} (std\+::string word, int x, int y, bool across)\hypertarget{classCrossword_a264f80b2b16dc6ed81f8fcdb6668412a}{}\label{classCrossword_a264f80b2b16dc6ed81f8fcdb6668412a}
+
+\item 
+bool {\bfseries add\+Connected\+To} (std\+::string word, int wordI, std\+::string source\+Word, int source\+WordI)\hypertarget{classCrossword_aeb76f7a07b1dce37bcdb4f4c34d68096}{}\label{classCrossword_aeb76f7a07b1dce37bcdb4f4c34d68096}
+
+\item 
+bool {\bfseries collision\+Check} (std\+::string word, int x, int y, std\+::string source\+Word)\hypertarget{classCrossword_adffaf355b0ce0df1950aaf854df752db}{}\label{classCrossword_adffaf355b0ce0df1950aaf854df752db}
+
+\item 
+bool {\bfseries collides} (int abx, int aex, int aby, int aey, int bbx, int bex, int bby, int bey)\hypertarget{classCrossword_a3a7f13cd35e005add4e010c09ae47087}{}\label{classCrossword_a3a7f13cd35e005add4e010c09ae47087}
+
+\item 
+std\+::string {\bfseries get\+Position\+And\+Orientation} (const std\+::string \&word)\hypertarget{classCrossword_a9254e77677c936f3eb07baca7268f0f7}{}\label{classCrossword_a9254e77677c936f3eb07baca7268f0f7}
+
+\item 
+std\+::string {\bfseries str\+Ascii} ()\hypertarget{classCrossword_a9345fdb4c29eac51e4e2c3881d57f380}{}\label{classCrossword_a9345fdb4c29eac51e4e2c3881d57f380}
+
+\item 
+void {\bfseries latex\+Print} ()\hypertarget{classCrossword_a3f3b79bf83ea9bff5781214255a7576b}{}\label{classCrossword_a3f3b79bf83ea9bff5781214255a7576b}
+
+\item 
+int {\bfseries word\+Index\+At} (int x, int y)\hypertarget{classCrossword_a9072708ab5ecdae34bf8d6c7c5d3e65e}{}\label{classCrossword_a9072708ab5ecdae34bf8d6c7c5d3e65e}
+
+\item 
+bool {\bfseries has\+Index\+At} (int x, int y)\hypertarget{classCrossword_a08dacf55351f4cb07a7bd98bb17e40bc}{}\label{classCrossword_a08dacf55351f4cb07a7bd98bb17e40bc}
+
+\item 
+int {\bfseries index\+At} (int x, int y)\hypertarget{classCrossword_abb2f7fd9ec23c7543da4a031193dca9d}{}\label{classCrossword_abb2f7fd9ec23c7543da4a031193dca9d}
+
+\item 
+\hyperlink{classCharGrid}{Char\+Grid} \& {\bfseries get\+Grid} ()\hypertarget{classCrossword_a0e2eb976712cc19d99123ea00ca5a36b}{}\label{classCrossword_a0e2eb976712cc19d99123ea00ca5a36b}
+
+\item 
+void {\bfseries make\+Names} ()\hypertarget{classCrossword_adc255a20cadea9ddba13f8fc992da2a5}{}\label{classCrossword_adc255a20cadea9ddba13f8fc992da2a5}
+
+\item 
+std\+::string {\bfseries get\+Name\+Of} (std\+::string word)\hypertarget{classCrossword_afe1e74a939f5f0883a511f328e64b41d}{}\label{classCrossword_afe1e74a939f5f0883a511f328e64b41d}
+
+\item 
+std\+::vector$<$ std\+::string $>$ \& {\bfseries get\+Words\+In\+Order} ()\hypertarget{classCrossword_afff0c113751d2ffaf62358c91f400df9}{}\label{classCrossword_afff0c113751d2ffaf62358c91f400df9}
+
+\item 
+bool {\bfseries get\+Display\+Answers} ()\hypertarget{classCrossword_a90aac72a9259270a0d30d0acf760977c}{}\label{classCrossword_a90aac72a9259270a0d30d0acf760977c}
+
+\item 
+void {\bfseries set\+Display\+Answers} (bool b)\hypertarget{classCrossword_a4a5616c7b81bcc6902b79cc3634e047a}{}\label{classCrossword_a4a5616c7b81bcc6902b79cc3634e047a}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Latex\+Crossword\+Printer}\hypertarget{classCrossword_ae525bd3dd94c2b1845a8d8fc7aae8ef7}{}\label{classCrossword_ae525bd3dd94c2b1845a8d8fc7aae8ef7}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/douglas/generator2/crossword.\+h\item 
+/home/douglas/generator2/crossword.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,12 @@
+<map id="Worksheet" name="Worksheet">
+<area shape="rect" id="node2" href="$classLatexFormatter.html" title="{LatexFormatter\n||+ LatexFormatter()\l+ outputQuestions()\l+ outputAnswers()\l+ startSubsection()\l+ endSubsection()\l+ startSection()\l+ endSection()\l+ startEnumerate()\l+ endEnumerate()\l+ startMulticol()\l+ endMulticol()\l}" alt="" coords="5,307,143,531"/>
+<area shape="rect" id="node3" href="$classFormatter.html" title="{Formatter\n|# questionLines\l# answerLines\l|+ Formatter()\l+ outputQuestions()\l+ outputAnswers()\l+ addQuestionLine()\l+ addAnswerLine()\l+ startSection()\l+ endSection()\l+ startSubsection()\l+ endSubsection()\l+ startEnumerate()\land 9 more...\l}" alt="" coords="694,5,833,244"/>
+<area shape="rect" id="node5" href="$classQuestionFormatter.html" title="{QuestionFormatter\n||+ QuestionFormatter()\l}" alt="" coords="963,380,1113,457"/>
+<area shape="rect" id="node4" href="$classTreeFormatter.html" title="{TreeFormatter\n||+ TreeFormatter()\l+ formatTree()\l+ strTree()\l}" alt="" coords="380,608,504,715"/>
+<area shape="rect" id="node6" href="$classCrosswordFormatter.html" title="{CrosswordFormatter\n||+ CrosswordFormatter()\l+ formatCrossword()\l}" alt="" coords="541,615,703,707"/>
+<area shape="rect" id="node7" href="$classExpressionTreeFormatter.html" title="{ExpressionTreeFormatter\n||+ ExpressionTreeFormatter()\l+ formatExpressionTree()\l+ strExpressionTree()\l}" alt="" coords="1030,608,1219,715"/>
+<area shape="rect" id="node8" href="$classBodmasQuestionFormatter.html" title="{BodmasQuestionFormatter\n||+ BodmasQuestionFormatter()\l+ formatBodmasQuestion()\l}" alt="" coords="780,615,979,707"/>
+<area shape="rect" id="node9" href="$classTableFormatter.html" title="{TableFormatter\n||+ TableFormatter()\l+ formatTable()\l}" alt="" coords="1258,615,1389,707"/>
+<area shape="rect" id="node10" href="$classEquationQuestionFormatter.html" title="{EquationQuestionFormatter\n||+ EquationQuestionFormatter()\l+ formatEquationQuestion()\l}" alt="" coords="1421,615,1623,707"/>
+<area shape="rect" id="node11" href="$classRandom.html" title="{Random\n||+ setSeed()\l+ randomInt()\l}" alt="" coords="280,373,380,465"/>
+</map>

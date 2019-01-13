@@ -1,0 +1,112 @@
+\hypertarget{classFormatter}{}\section{Formatter Class Reference}
+\label{classFormatter}\index{Formatter@{Formatter}}
+
+
+Inheritance diagram for Formatter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{classFormatter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Formatter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFormatter__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries output\+Questions} (std\+::ostream \&stream)=0\hypertarget{classFormatter_a98ff09fa6b041b352b11f52d314b0410}{}\label{classFormatter_a98ff09fa6b041b352b11f52d314b0410}
+
+\item 
+virtual void {\bfseries output\+Answers} (std\+::ostream \&stream)=0\hypertarget{classFormatter_a0fdcbe54f426fe453161682200e9bf48}{}\label{classFormatter_a0fdcbe54f426fe453161682200e9bf48}
+
+\item 
+void {\bfseries add\+Question\+Line} (const std\+::string line)\hypertarget{classFormatter_aba80ae3dd4e98f9e277977ef7ef61774}{}\label{classFormatter_aba80ae3dd4e98f9e277977ef7ef61774}
+
+\item 
+void {\bfseries add\+Answer\+Line} (const std\+::string line)\hypertarget{classFormatter_adebd4aa432d008191ef03b475a267056}{}\label{classFormatter_adebd4aa432d008191ef03b475a267056}
+
+\item 
+virtual void {\bfseries start\+Section} (const std\+::string section\+Name)=0\hypertarget{classFormatter_afadeabc0c5b4b6bd048ef3f730a695ca}{}\label{classFormatter_afadeabc0c5b4b6bd048ef3f730a695ca}
+
+\item 
+virtual void {\bfseries end\+Section} ()=0\hypertarget{classFormatter_a2004debe52f66791be806d07e701bbc4}{}\label{classFormatter_a2004debe52f66791be806d07e701bbc4}
+
+\item 
+virtual void {\bfseries start\+Subsection} (const std\+::string section\+Name)=0\hypertarget{classFormatter_a8a6e1379a7d2ecb4e44901afc08a5323}{}\label{classFormatter_a8a6e1379a7d2ecb4e44901afc08a5323}
+
+\item 
+virtual void {\bfseries end\+Subsection} ()=0\hypertarget{classFormatter_ae91cf6f493111f5bc6fc9ffbf6d4e6f2}{}\label{classFormatter_ae91cf6f493111f5bc6fc9ffbf6d4e6f2}
+
+\item 
+virtual void {\bfseries start\+Enumerate} ()=0\hypertarget{classFormatter_aba4c98ea2a0a7613bd15bd279a7509e5}{}\label{classFormatter_aba4c98ea2a0a7613bd15bd279a7509e5}
+
+\item 
+virtual void {\bfseries end\+Enumerate} ()=0\hypertarget{classFormatter_ae618eab17049dee40305b2d989828e8c}{}\label{classFormatter_ae618eab17049dee40305b2d989828e8c}
+
+\item 
+virtual void {\bfseries start\+Multicol} (int num\+Columns)=0\hypertarget{classFormatter_a7cf2ea87ddf2bf145e0b1aab77783b9f}{}\label{classFormatter_a7cf2ea87ddf2bf145e0b1aab77783b9f}
+
+\item 
+virtual void {\bfseries end\+Multicol} ()=0\hypertarget{classFormatter_a54f2ad368afbd1ebe2756ff2b3c1dc07}{}\label{classFormatter_a54f2ad368afbd1ebe2756ff2b3c1dc07}
+
+\item 
+\hyperlink{classBodmasQuestionFormatter}{Bodmas\+Question\+Formatter} $\ast$ {\bfseries get\+Bodmas\+Question\+Formatter} ()\hypertarget{classFormatter_a98e1fd8588a6f54f0d5f0d0ce13e2960}{}\label{classFormatter_a98e1fd8588a6f54f0d5f0d0ce13e2960}
+
+\item 
+\hyperlink{classExpressionTreeFormatter}{Expression\+Tree\+Formatter} $\ast$ {\bfseries get\+Expression\+Tree\+Formatter} ()\hypertarget{classFormatter_ab5aecec4b4cbe567ca208f355d546115}{}\label{classFormatter_ab5aecec4b4cbe567ca208f355d546115}
+
+\item 
+\hyperlink{classEquationQuestionFormatter}{Equation\+Question\+Formatter} $\ast$ {\bfseries get\+Equation\+Question\+Formatter} ()\hypertarget{classFormatter_a3a2f3fb9176ec9b50d86822381c06a64}{}\label{classFormatter_a3a2f3fb9176ec9b50d86822381c06a64}
+
+\item 
+\hyperlink{classTreeFormatter}{Tree\+Formatter} $\ast$ {\bfseries get\+Tree\+Formatter} ()\hypertarget{classFormatter_ac5f9b6234b04f0017a80fd4e74a812d9}{}\label{classFormatter_ac5f9b6234b04f0017a80fd4e74a812d9}
+
+\item 
+\hyperlink{classCrosswordFormatter}{Crossword\+Formatter} $\ast$ {\bfseries get\+Crossword\+Formatter} ()\hypertarget{classFormatter_a513014a14b51125c6440dcf46de5386d}{}\label{classFormatter_a513014a14b51125c6440dcf46de5386d}
+
+\item 
+\hyperlink{classTableFormatter}{Table\+Formatter} $\ast$ {\bfseries get\+Table\+Formatter} ()\hypertarget{classFormatter_a52ef285118fe34628af60c5ff55cfafc}{}\label{classFormatter_a52ef285118fe34628af60c5ff55cfafc}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ std\+::string $>$ {\bfseries question\+Lines}\hypertarget{classFormatter_abe848f063503f3587b1a83ad82df7c1e}{}\label{classFormatter_abe848f063503f3587b1a83ad82df7c1e}
+
+\item 
+std\+::vector$<$ std\+::string $>$ {\bfseries answer\+Lines}\hypertarget{classFormatter_ab2cdeb8cdcad98582233117f071d559e}{}\label{classFormatter_ab2cdeb8cdcad98582233117f071d559e}
+
+\item 
+\hyperlink{classBodmasQuestionFormatter}{Bodmas\+Question\+Formatter} $\ast$ {\bfseries p\+Bodmas\+Question\+Formatter}\hypertarget{classFormatter_a310eae52988f88652fc6f5dbf663e6d4}{}\label{classFormatter_a310eae52988f88652fc6f5dbf663e6d4}
+
+\item 
+\hyperlink{classExpressionTreeFormatter}{Expression\+Tree\+Formatter} $\ast$ {\bfseries p\+Expression\+Tree\+Formatter}\hypertarget{classFormatter_a31bd119c1109ccfdec1024775414094e}{}\label{classFormatter_a31bd119c1109ccfdec1024775414094e}
+
+\item 
+\hyperlink{classEquationQuestionFormatter}{Equation\+Question\+Formatter} $\ast$ {\bfseries p\+Equation\+Question\+Formatter}\hypertarget{classFormatter_a1d44637895cb280cc04e12cfebeb2b0a}{}\label{classFormatter_a1d44637895cb280cc04e12cfebeb2b0a}
+
+\item 
+\hyperlink{classTreeFormatter}{Tree\+Formatter} $\ast$ {\bfseries p\+Tree\+Formatter}\hypertarget{classFormatter_a7a0449140b074f4918f1235657eca242}{}\label{classFormatter_a7a0449140b074f4918f1235657eca242}
+
+\item 
+\hyperlink{classCrosswordFormatter}{Crossword\+Formatter} $\ast$ {\bfseries p\+Crossword\+Formatter}\hypertarget{classFormatter_ae3237e47677e1ed9da3dea4d912b4a3c}{}\label{classFormatter_ae3237e47677e1ed9da3dea4d912b4a3c}
+
+\item 
+\hyperlink{classTableFormatter}{Table\+Formatter} $\ast$ {\bfseries p\+Table\+Formatter}\hypertarget{classFormatter_a7919aa24002409a139d7b6730630ab86}{}\label{classFormatter_a7919aa24002409a139d7b6730630ab86}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/douglas/generator2/formatter.\+h\item 
+/home/douglas/generator2/formatter.\+cpp\end{DoxyCompactItemize}

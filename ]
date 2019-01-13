@@ -1,0 +1,17 @@
+#include "expressiontree.h"
+
+ExpressionTree::ExpressionTree()
+{
+	totalNodes = 30;
+	lastIndex = -1;
+	expressionNodes = std::vector<ExpressionNode>(totalNodes);
+}
+
+ExpressionNode* ExpressionTree::getHead() {
+	return &expressionNodes[0];
+}
+
+ExpressionNode* ExpressionTree::getNextNode() {
+	if (lastIndex 
+	return &expressionNodes[++lastIndex];
+}
